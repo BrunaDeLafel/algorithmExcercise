@@ -68,3 +68,24 @@ const toSortList = (head, tail) => {
 
     return mergeList(toSortList(head, mid), toSortList(mid, tail));
 }
+
+const mergeListNode = (list1, list2) => {
+    const dummyListNode = new ListNode(0);
+}
+
+const toSortListNode = (head, tail) => {
+    let slow = head;
+    let fast = head;
+
+    while(fast) {
+        slow = slow.next;
+        fast = fast.next
+        if(fast !== tail){
+            fast = fast.next
+        }
+    }
+
+    const mid = slow;
+
+    return mergeListNode();
+}
