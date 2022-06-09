@@ -1,3 +1,9 @@
+/**
+ * @description 版本号的比较
+ * @param version1
+ * @param version2
+ * @returns {number}
+ */
 const versionCompare = (version1, version2) => {
     let version1Arr = version1.split('.');
     let version2Arr = version2.split('.');
