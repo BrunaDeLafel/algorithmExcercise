@@ -11,6 +11,7 @@ const reverseListNodeBetween = (head, left, right) => {
     let prev = null;
 
     let tempIndex = 1
+    // 开始遍历整个链表
     while(currBase){
         if(currBase.next && tempIndex + 1 === left){
             currHead = currBase;

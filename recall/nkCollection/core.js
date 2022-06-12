@@ -1,3 +1,9 @@
+/**
+ * 长度为k的子字符串
+ * @param n
+ * @param k
+ * @returns {*[]}
+ */
 const combine = (n, k) => {
     let resultArr = [];
     // 回溯 递归

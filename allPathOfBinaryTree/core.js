@@ -1,3 +1,8 @@
+/**
+ * @description 用字符串路径表示二叉树所有的路径
+ * @param root
+ * @returns {*[]}
+ */
 const allPathOfBinaryTree = (root) => {
     let pathArr = [];
     searchTreeBranch(root, '', pathArr);

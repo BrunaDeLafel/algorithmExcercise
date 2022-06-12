@@ -4,7 +4,7 @@
  */
 const postOrderTraversal = (root) => {
     let tempArr = [];
-    const preorderMeta = (branch) => {
+    const postorderMeta = (branch) => {
         if(branch.left){
             preorderMeta(branch.left)
         }
@@ -14,7 +14,7 @@ const postOrderTraversal = (root) => {
         tempArr.push(branch.val);
     }
     if(root){
-        preorderMeta(root);
+        postorderMeta(root);
     }
     return tempArr;
 }

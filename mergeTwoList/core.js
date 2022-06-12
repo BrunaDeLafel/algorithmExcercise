@@ -1,3 +1,9 @@
+/**
+ * @description 合并两个链表ListNode
+ * @param list1
+ * @param list2
+ * @returns {*}
+ */
 const mergeList = (list1, list2) => {
     if(list1 === null){
         return list2

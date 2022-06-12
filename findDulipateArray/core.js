@@ -1,3 +1,8 @@
+/**
+ * @description 找到节点重复的元素
+ * @param arr
+ * @returns {*}
+ */
 const findDulipdateArray = (arr) => {
     let slow = 0;
     let fast = 0;
