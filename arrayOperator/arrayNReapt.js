@@ -12,7 +12,7 @@ const arrayNReapt = (arr) => {
         }
     }, []);
 
-    return newArr.length < arr.length ? false : true;
+    return newArr;
 }
 
 console.log(arrayNReapt([1,2,3,1]));
