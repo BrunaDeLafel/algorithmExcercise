@@ -7,7 +7,6 @@
 const binarySearch = (nums, target) => {
     let resultIndex = -1;
     const helper = (start, end) => {
-        console.log(start, end, nums[end], target);
         if(nums[start] === target){
             resultIndex =  start;
             return;
@@ -30,7 +29,7 @@ const binarySearch = (nums, target) => {
 };
 
 /**
- *
+ * @description 二分数组查找（另一种方法）
  * @param nums
  * @param target
  * @returns {number}

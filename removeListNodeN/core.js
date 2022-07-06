@@ -18,6 +18,7 @@ const removeNthFromEnd = (head, n) => {
         slow = slow.next;
     }
 
+    // 倒数第一个
     if(slow.next === null){
         return temp;
     } else {

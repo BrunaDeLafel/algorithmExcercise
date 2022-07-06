@@ -12,7 +12,7 @@ const FibNumber1 = (n) => {
         return 1
     }
 
-    return fib(n - 1) + fib(n - 2);
+    return FibNumber1(n - 1) + FibNumber1(n - 2);
 }
 const FibNumber2 = (n) => {
     if(n < 2){

@@ -18,7 +18,7 @@ const multiplyString = (num1, num2) => {
             res[i + j] += sum / 10 | 0; // 除以10取整
         }
     }
-    // 讲字符串中的0去掉
+    // 将字符串中的0去掉
     while (res[0] === 0) {
         res.shift();
     }

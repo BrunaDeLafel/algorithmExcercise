@@ -1,3 +1,9 @@
+/**
+ * @description 实现promise all方法
+ * @param args
+ * @returns {Promise<unknown>}
+ * @constructor
+ */
 const PromiseAll = (args) => {
     // all 方法最终return Promise实例
     return new Promise((resolve, reject) => {

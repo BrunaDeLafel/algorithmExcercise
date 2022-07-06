@@ -6,7 +6,7 @@
  */
 const getIntersectionListNode = (headA, headB) => {
     let fast = headA;
-    let slow = headB
+    let slow = headB;
     if(headA === null && headB === null){
         return null
     }

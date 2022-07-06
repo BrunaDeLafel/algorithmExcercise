@@ -1,3 +1,8 @@
+/**
+ * @description
+ * @param oldarr
+ * @returns {*[]}
+ */
 const transformTreeLikeTree = (oldarr) => {
     let resultArr = [];
     let usedIndexArr = [];

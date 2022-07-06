@@ -3,7 +3,7 @@
  * @param root
  * @returns {null|*}
  */
-const invertBTree = (root) => {
+const invertBinaryTree = (root) => {
     if(!root){
         return null;
     }
