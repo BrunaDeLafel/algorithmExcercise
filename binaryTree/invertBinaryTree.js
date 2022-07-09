@@ -7,11 +7,11 @@ const invertBinaryTree = (root) => {
     if(!root){
         return null;
     }
-    searchBranch(root);
+    invertBranch(root);
     return root
 }
 
-const searchBranch = (branch) => {
+const invertBranch = (branch) => {
     if(!branch.left && !branch.right){
         return;
     } else {
@@ -20,10 +20,10 @@ const searchBranch = (branch) => {
         branch.right = tempBranch;
 
         if(branch.left){
-            searchBranch(branch.left)
+            invertBranch(branch.left)
         }
         if(branch.right){
-            searchBranch(branch.right)
+            invertBranch(branch.right)
         }
     }
 }

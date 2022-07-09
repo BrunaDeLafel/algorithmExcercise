@@ -1,5 +1,5 @@
 /**
- * @description
+ * @description 转化为将类似树状结构的数组
  * @param oldarr
  * @returns {*[]}
  */

@@ -1,4 +1,9 @@
-const find = (id) => {
+/**
+ * @description 从类似树状的tree中，找到目标值
+ * @param id
+ * @returns {*}
+ */
+const findTargetTreeLikeArr = (id) => {
     const result = [];
 
     const helper = (arr, path) => {

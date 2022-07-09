@@ -21,4 +21,6 @@ const numsIsland = (grid) => {
             }
         }
     }
+
+    return count;
 }
