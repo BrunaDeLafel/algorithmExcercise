@@ -5,7 +5,7 @@
 const numsIsland = (grid) => {
     let count = 0;
     const findIsland = (x, y) => {
-        grid[x][y] = 0;
+        grid[x][y] = 0; // todo
         if(grid[x-1] && grid[x - 1][y]){
             grid[x-1]
         }
