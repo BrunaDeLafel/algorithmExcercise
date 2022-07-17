@@ -7,6 +7,7 @@ const findTargetTreeLikeArr = (id) => {
     const result = [];
 
     const helper = (arr, path) => {
+        // 回溯寻找路径
         for(let i = 0;i < arr.length;i ++){
             if(arr[i].id === id){
                 path.push(arr[i].id);
