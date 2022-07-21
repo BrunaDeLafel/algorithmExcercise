@@ -4,12 +4,12 @@
  */
 const diameterOfBinaryTree = (root) => {
     let result = 0;
-    if(!root){
+    if (!root) {
         return 0;
     }
 
     const maxDepth = (root) => {
-        if(!root){
+        if (!root) {
             return 0;
         }
 

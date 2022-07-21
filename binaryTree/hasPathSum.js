@@ -4,5 +4,5 @@
  * @param targetSum
  */
 const hasPathSum = (root, targetSum) => {
-
+    // todo
 }
